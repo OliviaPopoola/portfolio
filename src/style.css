@@ -1,4 +1,6 @@
 :root {
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Italiana", serif;
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -109,4 +111,30 @@ p {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .main img {
+    display: none;
+  }
+  .main a {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .row img {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .navigation-links {
+    margin-bottom: 24px;
+  }
 }

@@ -1,6 +1,6 @@
 :root {
   --primary-font: "Playfair Display", serif;
-  --secondary-font: "Italiana", serif;
+  --secondary-font: "Manrope", sans-serif;
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -13,6 +13,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  font-family: var(--primary-font);
 }
 
 h1,
@@ -24,6 +25,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-size: bold;
 }
 
 h2 {
@@ -40,6 +42,7 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--secondary-font);
 }
 
 .navigation-links {

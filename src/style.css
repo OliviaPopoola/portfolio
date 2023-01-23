@@ -1,9 +1,9 @@
 :root {
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Manrope", sans-serif;
-  --branding-color: rgb(226, 222, 238);
-  --primary-color: rgb(206, 186, 216);
-  --secondary-color: rgb(153, 136, 201);
+  --branding-color: rgba(244, 214, 204, 0.722);
+  --primary-color: rgb(178, 139, 132);
+  /* --secondary-color: rgb(153, 136, 201); */
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -58,10 +58,14 @@ p {
   font-family: var(--secondary-font);
   font-weight: 300;
 }
-
+.social-links {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -75,15 +79,11 @@ p {
 .main h2 {
   font-family: var(--primary-font);
 }
-.contact-link {
+.getStarted-link {
   background: var(--primary-color);
+  font-family: var(--secondary-font);
   box-shadow: var(--box-shadow);
   color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {

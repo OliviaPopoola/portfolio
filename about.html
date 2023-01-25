@@ -70,7 +70,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/about.html#contact"
+                href="/contact.html"
                 title="Contact Olivia Popoola"
                 >Contact me</a
               >
@@ -79,46 +79,221 @@
         </div>
       </div>
     </nav>
-    <h1>About me</h1>
-    <h3>Front-end developer from Luton, England</h3>
-    <div class="about-paragraphs">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container pb-5">
+    <!-- head -->
+
+    <div class="about-hero container mb-5">
       <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            alt="Yoga app"
-            class="img-fluid p-2 shadow rounded"
-          />
+        <div class="col-md-9">
+          <h1>About me</h1>
+          <h3>Front-end developer from Luton, England</h3>
+
+          <div class="about-paragraphs">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+              qui alias veniam excepturi rem dolor fugit dignissimos, sed
+              voluptatum blanditiis harum.
+            </p>
+          </div>
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-lg-3">
           <img
-            src="images/weather.png"
-            alt="Weather app"
-            class="img-fluid p-2 shadow rounded"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt app"
-            class="img-fluid p-2 shadow rounded"
+            class="img-fluid about-photo"
+            src="images/olivia2.jpg"
+            alt="photo-of-olivia"
           />
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:olivia-popoola@hotmail.co.uk" class="email-link">
-        olivia-popoola@hotmail.co.uk
-      </a>
+    <!-- begin of carosel -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide mt-3 mb-5 bg-dark"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/yoga.png"
+                  class="d-block w-75"
+                  alt="yoga-app"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Yoga app</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/weather.png"
+                  class="d-block w-75"
+                  alt="weather-app"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>weather app</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/yogurt.png"
+                  class="d-block w-75"
+                  alt="yogurt-app"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>yogurt app</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- technologies -->
+    <div class="container pb-5">
+      <div class="row">
+        <h1>Technologies I have used</h1>
+          <div class="col-sm-4">
+          <img
+            src="images//technologies/html-icon.svg"
+            alt="html-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>HTML-5</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/css-icon.svg"
+            alt="css-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>CSS-3</p>
+        </div>
+
+                <div class="col-sm-4">
+          <img
+            src="images//technologies/javascript-icon.svg"
+            alt="javascript-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Javascript</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/api-icon.svg"
+            alt="api-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Application Programming Interface</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/vscode-icon.svg"
+            alt="vscode-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Visual Studio Code</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/bootstrap-icon.svg"
+            alt="bootstrap-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/responsive-icon.svg"
+            alt="responsive-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Responsive</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/flexbox-icon.svg"
+            alt="flexbox-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Flexbox</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/github-icon.svg"
+            alt="github-icon"
+            class="img-fluid  rounded w-100"
+          />
+          <p>Github</p>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="images//technologies/seo-icon.svg"
+            alt="seo-icon"
+            class="img-fluid rounded w-100"
+          />
+          <p>Search Engine Optimization</p>
+        </div>
+               
+        </div>
+      </div>
     </div>
   </body>
 </html>

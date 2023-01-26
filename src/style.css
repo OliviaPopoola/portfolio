@@ -53,17 +53,17 @@ p {
   padding: 70px;
   background-color: var(--branding-color);
 }
-.about-hero {
+.secondary-hero {
   margin-top: 55px;
   left: 0;
   right: 0;
   padding: 10px 40px;
   background-color: var(--primary-color);
 }
-.about-hero h1 {
+.secondary-hero h1 {
   color: white;
 }
-.about-hero h3 {
+.secondary-hero h3 {
   font-family: var(--secondary-font);
   font-weight: 300;
 }
@@ -118,12 +118,12 @@ p {
   font-size: 42px;
   color: var(--subheading-color);
 }
-.about-paragraphs {
+.content-paragraphs {
   display: flex;
   margin: 30px 0;
 }
 
-.about-paragraphs p {
+.content-paragraphs p {
   margin: 10px;
 }
 
@@ -169,7 +169,7 @@ p {
   left: 0;
   min-height: 300px;
 }
-.about-subheadings {
+.subheadings {
   color: var(--subheading-color);
   font-size: 42px;
 }
@@ -212,7 +212,7 @@ p {
   .hero {
     padding: 30px 20px;
   }
-  .about-hero {
+  .secondary-hero {
     text-align: center;
     padding: 30px 20px;
   }

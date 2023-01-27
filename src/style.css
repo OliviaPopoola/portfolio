@@ -4,7 +4,7 @@
   --branding-color: rgba(244, 214, 204, 0.722);
   --primary-color: rgb(199, 160, 154);
   --subheading-color: rgb(128, 128, 128);
-  /* --secondary-color: rgb(153, 136, 201); */
+  /* --secondary-color: rgb(153, 136, 201);  #e3d0cc*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -64,7 +64,7 @@ p {
   text-align: center;
   margin-top: 55px;
   padding: 70px;
-  padding-bottom: 0;
+  padding-bottom: 30;
   background-color: var(--primary-color);
   left: 0;
   right: 0;

@@ -36,6 +36,9 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   padding: 20px;
@@ -43,6 +46,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
   font-family: var(--secondary-font);
+}
+footer {
+  margin: 60px 0;
 }
 .navbar-fixed {
   position: fixed;
@@ -164,13 +170,38 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: black;
+  font-size: 24px;
   text-decoration: none;
+  margin: 40px;
 }
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--primary-color);
+}
+.social-footer a {
+  margin: 0 20px;
+  color: var(--featured-color);
+  background-color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 10ms ease-in-out;
+}
+
+.social-footer a:hover {
+  color: var(--primary-color);
+}
+
+footer .contact-box {
+  background-color: var(--branding-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
 }
 
 @media (max-width: 800px) {
@@ -182,6 +213,9 @@ p {
   }
   h3 {
     font-size: 18px;
+  }
+  h4 {
+    font: 18px;
   }
   p {
     font-size: 16px;
@@ -225,5 +259,8 @@ p {
   }
   .social-links img {
     width: 25px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }

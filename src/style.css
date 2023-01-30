@@ -3,6 +3,7 @@
   --secondary-font: "Manrope", sans-serif;
   --branding-color: rgba(244, 214, 204, 0.722);
   --primary-color: rgb(199, 160, 154);
+  --featured-color: rgb(196, 96, 96);
   --subheading-color: rgb(128, 128, 128);
   /* --secondary-color: rgb(153, 136, 201);  #e3d0cc*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -107,6 +108,10 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.nav-item,
+.active {
+  color: var(--featured-color) !important;
+}
 .main h2 {
   font-family: var(--primary-font);
 }
@@ -136,7 +141,7 @@ p {
   margin: 10px;
 }
 
-.primary-link {
+.project-link {
   border-radius: 6px;
   padding: 20px 15px;
   text-decoration: none;
@@ -148,7 +153,7 @@ p {
   color: var(--primary-color);
   transition: all ease-in-out 2ms;
 }
-.primary-link:hover {
+.project-link:hover {
   background-color: var(--primary-color);
   color: white;
 }

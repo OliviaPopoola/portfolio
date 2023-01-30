@@ -196,7 +196,7 @@ footer {
 
 footer .contact-box {
   background-color: var(--branding-color);
-  padding: 30px 120px;
+  padding: 50px 350px;
   border-radius: 10px;
 }
 
@@ -213,9 +213,6 @@ footer .contact-box {
   }
   h3 {
     font-size: 18px;
-  }
-  h4 {
-    font: 18px;
   }
   p {
     font-size: 16px;
@@ -259,8 +256,5 @@ footer .contact-box {
   }
   .social-links img {
     width: 25px;
-  }
-  footer .contact-box {
-    padding: 30px;
   }
 }

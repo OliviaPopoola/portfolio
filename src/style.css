@@ -203,7 +203,10 @@ footer .contact-box {
 .contact-box p {
   margin: 0;
 }
-
+.social-links img {
+  background-color: var(--branding-color);
+  border-radius: 50%;
+}
 @media (max-width: 800px) {
   h1 {
     font-size: 38px;

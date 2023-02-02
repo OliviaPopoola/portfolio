@@ -85,9 +85,8 @@ footer {
 }
 .about-photo {
   border-radius: 50%;
-  height: 70%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  height: 70%;
 }
 
 .hero h3 {
@@ -132,11 +131,6 @@ footer {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-.slogan {
-  font-family: var(--primary-font);
-  font-size: 42px;
-  color: var(--subheading-color);
 }
 .content-paragraphs {
   display: flex;
@@ -209,10 +203,11 @@ footer .contact-box {
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 38px;
+    font-size: 44px;
+    padding-top: 30px;
   }
   h2 {
-    font-size: 22px;
+    font-size: 28px;
   }
   h3 {
     font-size: 18px;
@@ -220,8 +215,8 @@ footer .contact-box {
   p {
     font-size: 16px;
   }
-  .slogan {
-    font-size: 22px;
+  .subheadings {
+    font-size: 34px;
   }
   .main {
     margin-top: 0;
@@ -234,9 +229,13 @@ footer .contact-box {
     text-align: center;
     margin: 0 20px;
   }
-  .row img {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  .about-photo {
+    width: 50%;
+    margin-top: 0;
+    height: 80%;
+  }
+  .technologies-container {
+    max-width: 33%;
   }
   .navigation-links {
     margin-bottom: 24px;
@@ -247,12 +246,7 @@ footer .contact-box {
   }
   .secondary-hero {
     text-align: center;
-    padding: 30px 20px;
-  }
-  .about-photo {
-    height: 30%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 20px 20px;
   }
   .social-links {
     margin-top: 15px;

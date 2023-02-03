@@ -125,6 +125,11 @@ footer {
   font-family: var(--secondary-font);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all ease-in-out 2ms;
+}
+.getStarted-link:hover {
+  background-color: var(--featured-color);
+  color: white;
 }
 
 .homepage-link {
@@ -190,8 +195,14 @@ footer {
 
 footer .contact-box {
   background-color: var(--branding-color);
-  padding: 50px 350px;
+  padding: 50px 150px;
   border-radius: 10px;
+}
+.contact-titles {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 .contact-box p {

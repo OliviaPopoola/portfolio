@@ -85,8 +85,8 @@ footer {
 }
 .about-photo {
   border-radius: 50%;
-  margin-top: 50px;
-  height: 70%;
+  margin-top: 150px;
+  height: 50%;
 }
 
 .hero h3 {
@@ -241,7 +241,7 @@ footer .contact-box {
     margin: 0 20px;
   }
   .about-photo {
-    width: 50%;
+    width: 45%;
     margin-top: 0;
     height: 80%;
   }
@@ -254,6 +254,9 @@ footer .contact-box {
 
   .hero {
     padding: 30px 20px;
+  }
+  .hero p {
+    font-size: 14px;
   }
   .secondary-hero {
     text-align: center;

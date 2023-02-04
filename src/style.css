@@ -208,7 +208,10 @@ footer .contact-box {
 .contact-box p {
   margin: 0;
 }
-.social-links img {
+.contact-text {
+  flex-direction: column;
+}
+.social-links span {
   background-color: var(--branding-color);
   border-radius: 50%;
   transition: all 10ms ease-in-out;

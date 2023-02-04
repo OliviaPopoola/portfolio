@@ -211,6 +211,10 @@ footer .contact-box {
 .social-links img {
   background-color: var(--branding-color);
   border-radius: 50%;
+  transition: all 10ms ease-in-out;
+}
+.social-links img:hover {
+  background-color: var(--featured-color);
 }
 @media (max-width: 800px) {
   h1 {

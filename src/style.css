@@ -67,6 +67,13 @@ footer {
   padding: 70px;
   background-color: var(--branding-color);
 }
+.cv-link {
+  font-family: var(--secondary-font);
+  color: var(--featured-color);
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
 .secondary-hero {
   text-align: center;
   margin-top: 55px;

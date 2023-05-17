@@ -169,6 +169,16 @@ footer {
   background-color: var(--primary-color);
   color: white;
 }
+.work-link {
+  font-family: var(--secondary-font);
+  color: var(--featured-color);
+  text-decoration: none;
+}
+.work-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 .subheadings {
   color: var(--subheading-color);
   font-size: 42px;
